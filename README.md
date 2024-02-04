@@ -5,9 +5,9 @@ A custom.toml skeleton for Raspberry Pi first boot
 ## Steps
 
 1. Update custom.toml with appropriate values
-2. # mount /dev/sd?1 /mnt
-3. # cp -f custom.toml /mnt
-4. # umount /mnt
+2. ```# mount /dev/sd?1 /mnt```
+3. ```# cp -f custom.toml /mnt```
+4. ```# umount /mnt```
 5. Start the host and find its DHCP address from DHCP server
 
 ## Reference
