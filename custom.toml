@@ -1,0 +1,20 @@
+[system]
+set_hostname = "rpi"
+
+[user]
+name = "pi"
+password = "$(openssl passwd -6)"
+
+[ssh]
+enabled = true
+authorized_keys = ["ssh-rsa ..."]
+
+[wlan]
+ssid = "plain-text ssid"
+password = "plain-text passwd"
+country = "US"
+password_encrypted = false
+
+[locale]
+keymap = "en_US.UTF-8"
+timezone = "US/Central"
